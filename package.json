@@ -1,0 +1,30 @@
+{
+  "name": "hello-jenkins",
+  "version": "0.0.1",
+  "description": "Hello Jenkins test app",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brebory/hello-jenkins.git"
+  },
+  "author": "brebory (Brendon Roberto)",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/brebory/hello-jenkins/issues"
+  },
+  "homepage": "https://github.com/brebory/hello-jenkins",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5",
+    "nyan": "^1.0.3",
+    "supertest": "^1.2.0"
+  }
+}
